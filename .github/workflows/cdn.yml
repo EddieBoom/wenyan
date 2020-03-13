@@ -1,6 +1,9 @@
 name: Publish To CDN
 
-on: push
+on:
+  push:
+    branches: 
+    - master
 
 jobs:
   publish:
